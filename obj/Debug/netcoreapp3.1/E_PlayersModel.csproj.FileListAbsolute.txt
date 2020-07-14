@@ -1,0 +1,7 @@
+C:\Users\gabriel\Documents\GitHub\E_PlayersModel\obj\Debug\netcoreapp3.1\E_PlayersModel.csprojAssemblyReference.cache
+C:\Users\gabriel\Documents\GitHub\E_PlayersModel\obj\Debug\netcoreapp3.1\E_PlayersModel.AssemblyInfoInputs.cache
+C:\Users\gabriel\Documents\GitHub\E_PlayersModel\obj\Debug\netcoreapp3.1\E_PlayersModel.AssemblyInfo.cs
+C:\Users\gabriel\Documents\GitHub\E_PlayersModel\obj\Debug\netcoreapp3.1\E_PlayersModel.csproj.CoreCompileInputs.cache
+C:\Users\gabriel\Documents\GitHub\E_PlayersModel\obj\Debug\netcoreapp3.1\E_PlayersModel.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\gabriel\Documents\GitHub\E_PlayersModel\obj\Debug\netcoreapp3.1\E_PlayersModel.RazorAssemblyInfo.cache
+C:\Users\gabriel\Documents\GitHub\E_PlayersModel\obj\Debug\netcoreapp3.1\E_PlayersModel.RazorAssemblyInfo.cs
