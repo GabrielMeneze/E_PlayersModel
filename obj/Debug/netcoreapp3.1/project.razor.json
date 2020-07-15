@@ -20536,8 +20536,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\gabriel\\Documents\\GitHub\\E_PlayersModel\\Views\\Noticias\\index.cshtml",
+      "TargetPath": "Views\\Noticias\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\gabriel\\Documents\\GitHub\\E_PlayersModel\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\gabriel\\Documents\\GitHub\\E_PlayersModel\\Views\\Equipe\\index.cshtml",
+      "TargetPath": "Views\\Equipe\\index.cshtml",
       "FileKind": "mvc"
     },
     {

@@ -18,6 +18,7 @@ namespace E_PlayersModel.Models
             CreateFolderAndFile(PATH);
         }
 
+        
         public void Create(Noticias n)
         {
             string[] linha = { PrepararLinha(n) };
