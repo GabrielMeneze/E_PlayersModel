@@ -7,6 +7,6 @@ namespace E_PlayersModel.Models
          void Criar(Equipe e);
          List<Equipe> Ler();
          void Alterar(Equipe e);
-         void Excluit(int IdEquipe);
+         void Excluir(int IdEquipe);
     }
 }

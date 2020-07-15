@@ -1,41 +1,42 @@
-@model Noticias
+@model Equipe
     @{
-        ViewData["Title"] = "Notícias";
+        ViewData["Title"] = "Equipes";
     }
 
     <form action="@Url.Action("Cadastrar")" method="post">
 
-        <label for="IdNoticia">IdNoticia</label>
-        <input type="text" name="IdNoticia" id="IdNoticia">
+    <label for="IdNoticias">IdNoticias</label>
+    <input type="text" name="IdNoticias" id="IdNoticias">
 
-        <label for="Título">Título</label>
-        <input type="text" name="Título" id="Título">
-        
-        <label for="Texto">Texto</label>
-        <input type="text" name="Texto" id="Texto">
+    <label for="Titulo">Titulo</label>
+    <input type="text" name="Titulo" id="Titulo">
 
-        <label for="Imagem">Imagem</label>
-        <input type="text" name="Imagem" id="Imagem">
+    <label for="Texto">Texto</label>
+    <input type="text" name="Texto" id="Texto">
 
-        <button type="submit">Cadastrar!</button>
+    <label for="Imagem">Imagem</label>
+    <input type="text" name="Imagem" id="Imagem">
 
     </form>
 
     <table class="table table-responsive table-striped">
-    <thead>
-        <th>ID</th>
-        <th>Título</th>
-        <th>Texto</th>
-        <th>Imagem</th>
-    </thead>
-    <tbody>
-        @foreach (var item in ViewBag.Noticia){
-            <tr>
-                <td>@item.IdNoticia</td>
-                <td>@item.Titulo</td>
-                <td>@item.Texto</td>
-                <td>@item.Imagem</td>
-            </tr>
-        }
-    </tbody>
-</table>
+        <thead>
+            <th>Id</th>
+            <th>Titulo</th>
+            <th>Texto</th>
+            <th>Imagem</th>
+        </thead>
+        <tbody>
+            @foreach (var item in ViewBag.Noticias)
+            {
+                <tr>
+                    <td>@item.IdNoticias</td>
+                    <td>@item.Titulo</td>
+                    <td>@item.Texto</td>
+                    <td>@item.Imagem</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+

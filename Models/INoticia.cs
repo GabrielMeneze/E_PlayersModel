@@ -5,15 +5,15 @@ namespace E_PlayersModel.Models
   public interface INoticias
     {
           //Criar
-         void Create(Noticias n);
+         void Criar(Noticias n);
 
          //Ler
-         List<Noticias> ReadAll();
+         List<Noticias> Ler();
 
          //Alterar
-         void Update(Noticias n);
+         void Alterar(Noticias n);
 
          //Excluir
-         void Delete(Noticias n);
+         void Deletar(Noticias n);
     }
 }

@@ -38,7 +38,7 @@ namespace E_PlayersModel.Models
             RewriteCSV(PATH, linhas);
         }
         
-        public void Excluit(int IdEquipe)
+        public void Excluir(int IdEquipe)
         {
             List<string> linhas = ReadAllLinesCSV(PATH);
             linhas.RemoveAll(x => x.Split(";")[0] == IdEquipe.ToString());
